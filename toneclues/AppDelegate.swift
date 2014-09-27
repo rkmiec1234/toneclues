@@ -15,16 +15,15 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var audioController : AEAudioController!
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        
-        let audioController = AEAudioController(audioDescription:AEAudioController.nonInterleaved16BitStereoAudioDescription(),inputEnabled:true)
+        audioController = AEAudioController(audioDescription:AEAudioController.nonInterleaved16BitStereoAudioDescription(),inputEnabled:true)
         audioController.preferredBufferDuration = 0.005
         audioController.useMeasurementMode = true
         audioController.start(nil)
 
-        
+
         return true
     }
 
