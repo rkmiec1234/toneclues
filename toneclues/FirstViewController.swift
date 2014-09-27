@@ -11,6 +11,12 @@ import UIKit
 class FirstViewController: UIViewController {
     let appDelegate = UIApplication.sharedApplication().delegate as AppDelegate
     
+    
+    @IBAction func play(sender:UIButton){
+        print("play")
+    
+    }
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
