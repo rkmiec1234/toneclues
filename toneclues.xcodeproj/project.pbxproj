@@ -15,6 +15,88 @@
 		370EDDA119D6FB9400AD7EEC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 370EDDA019D6FB9400AD7EEC /* Images.xcassets */; };
 		370EDDA419D6FB9400AD7EEC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 370EDDA219D6FB9400AD7EEC /* LaunchScreen.xib */; };
 		370EDDB019D6FB9400AD7EEC /* tonecluesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 370EDDAF19D6FB9400AD7EEC /* tonecluesTests.swift */; };
+		3793BFB519D8574700B9FEA7 /* Organ Run.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3793BFB219D8574700B9FEA7 /* Organ Run.m4a */; };
+		3793BFB619D8574700B9FEA7 /* Organ Run.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3793BFB219D8574700B9FEA7 /* Organ Run.m4a */; };
+		3793BFB719D8574700B9FEA7 /* Southern Rock Drums.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3793BFB319D8574700B9FEA7 /* Southern Rock Drums.m4a */; };
+		3793BFB819D8574700B9FEA7 /* Southern Rock Drums.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3793BFB319D8574700B9FEA7 /* Southern Rock Drums.m4a */; };
+		3793BFB919D8574700B9FEA7 /* Southern Rock Organ.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3793BFB419D8574700B9FEA7 /* Southern Rock Organ.m4a */; };
+		3793BFBA19D8574700B9FEA7 /* Southern Rock Organ.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3793BFB419D8574700B9FEA7 /* Southern Rock Organ.m4a */; };
+		37C678A119D888CC004C466E /* A1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6787B19D888CC004C466E /* A1.caf */; };
+		37C678A219D888CC004C466E /* A1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6787B19D888CC004C466E /* A1.caf */; };
+		37C678A319D888CC004C466E /* A3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6787C19D888CC004C466E /* A3.caf */; };
+		37C678A419D888CC004C466E /* A3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6787C19D888CC004C466E /* A3.caf */; };
+		37C678A519D888CC004C466E /* A4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6787D19D888CC004C466E /* A4.caf */; };
+		37C678A619D888CC004C466E /* A4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6787D19D888CC004C466E /* A4.caf */; };
+		37C678A719D888CC004C466E /* Asharp1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6787E19D888CC004C466E /* Asharp1.caf */; };
+		37C678A819D888CC004C466E /* Asharp1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6787E19D888CC004C466E /* Asharp1.caf */; };
+		37C678A919D888CC004C466E /* Asharp3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6787F19D888CC004C466E /* Asharp3.caf */; };
+		37C678AA19D888CC004C466E /* Asharp3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6787F19D888CC004C466E /* Asharp3.caf */; };
+		37C678AB19D888CC004C466E /* Asharp4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6788019D888CC004C466E /* Asharp4.caf */; };
+		37C678AC19D888CC004C466E /* Asharp4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6788019D888CC004C466E /* Asharp4.caf */; };
+		37C678AD19D888CC004C466E /* B1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6788119D888CC004C466E /* B1.caf */; };
+		37C678AE19D888CC004C466E /* B1.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6788119D888CC004C466E /* B1.caf */; };
+		37C678AF19D888CC004C466E /* B3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6788219D888CC004C466E /* B3.caf */; };
+		37C678B019D888CC004C466E /* B3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6788219D888CC004C466E /* B3.caf */; };
+		37C678B119D888CC004C466E /* B4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6788319D888CC004C466E /* B4.caf */; };
+		37C678B219D888CC004C466E /* B4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6788319D888CC004C466E /* B4.caf */; };
+		37C678B319D888CC004C466E /* C2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6788419D888CC004C466E /* C2.caf */; };
+		37C678B419D888CC004C466E /* C2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6788419D888CC004C466E /* C2.caf */; };
+		37C678B519D888CC004C466E /* C3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6788519D888CC004C466E /* C3.caf */; };
+		37C678B619D888CC004C466E /* C3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6788519D888CC004C466E /* C3.caf */; };
+		37C678B719D888CC004C466E /* C4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6788619D888CC004C466E /* C4.caf */; };
+		37C678B819D888CC004C466E /* C4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6788619D888CC004C466E /* C4.caf */; };
+		37C678B919D888CC004C466E /* Csharp2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6788719D888CC004C466E /* Csharp2.caf */; };
+		37C678BA19D888CC004C466E /* Csharp2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6788719D888CC004C466E /* Csharp2.caf */; };
+		37C678BB19D888CC004C466E /* Csharp3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6788819D888CC004C466E /* Csharp3.caf */; };
+		37C678BC19D888CC004C466E /* Csharp3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6788819D888CC004C466E /* Csharp3.caf */; };
+		37C678BD19D888CC004C466E /* Csharp4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6788919D888CC004C466E /* Csharp4.caf */; };
+		37C678BE19D888CC004C466E /* Csharp4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6788919D888CC004C466E /* Csharp4.caf */; };
+		37C678BF19D888CC004C466E /* D2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6788A19D888CC004C466E /* D2.caf */; };
+		37C678C019D888CC004C466E /* D2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6788A19D888CC004C466E /* D2.caf */; };
+		37C678C119D888CC004C466E /* D3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6788B19D888CC004C466E /* D3.caf */; };
+		37C678C219D888CC004C466E /* D3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6788B19D888CC004C466E /* D3.caf */; };
+		37C678C319D888CC004C466E /* D4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6788C19D888CC004C466E /* D4.caf */; };
+		37C678C419D888CC004C466E /* D4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6788C19D888CC004C466E /* D4.caf */; };
+		37C678C519D888CC004C466E /* Dsharp2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6788D19D888CC004C466E /* Dsharp2.caf */; };
+		37C678C619D888CC004C466E /* Dsharp2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6788D19D888CC004C466E /* Dsharp2.caf */; };
+		37C678C719D888CC004C466E /* Dsharp3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6788E19D888CC004C466E /* Dsharp3.caf */; };
+		37C678C819D888CC004C466E /* Dsharp3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6788E19D888CC004C466E /* Dsharp3.caf */; };
+		37C678C919D888CC004C466E /* Dsharp4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6788F19D888CC004C466E /* Dsharp4.caf */; };
+		37C678CA19D888CC004C466E /* Dsharp4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6788F19D888CC004C466E /* Dsharp4.caf */; };
+		37C678CB19D888CC004C466E /* E2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6789019D888CC004C466E /* E2.caf */; };
+		37C678CC19D888CC004C466E /* E2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6789019D888CC004C466E /* E2.caf */; };
+		37C678CD19D888CC004C466E /* E3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6789119D888CC004C466E /* E3.caf */; };
+		37C678CE19D888CC004C466E /* E3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6789119D888CC004C466E /* E3.caf */; };
+		37C678CF19D888CC004C466E /* E4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6789219D888CC004C466E /* E4.caf */; };
+		37C678D019D888CC004C466E /* E4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6789219D888CC004C466E /* E4.caf */; };
+		37C678D119D888CC004C466E /* F2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6789319D888CC004C466E /* F2.caf */; };
+		37C678D219D888CC004C466E /* F2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6789319D888CC004C466E /* F2.caf */; };
+		37C678D319D888CC004C466E /* F3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6789419D888CC004C466E /* F3.caf */; };
+		37C678D419D888CC004C466E /* F3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6789419D888CC004C466E /* F3.caf */; };
+		37C678D519D888CC004C466E /* F4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6789519D888CC004C466E /* F4.caf */; };
+		37C678D619D888CC004C466E /* F4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6789519D888CC004C466E /* F4.caf */; };
+		37C678D719D888CC004C466E /* Fsharp2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6789619D888CC004C466E /* Fsharp2.caf */; };
+		37C678D819D888CC004C466E /* Fsharp2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6789619D888CC004C466E /* Fsharp2.caf */; };
+		37C678D919D888CC004C466E /* Fsharp3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6789719D888CC004C466E /* Fsharp3.caf */; };
+		37C678DA19D888CC004C466E /* Fsharp3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6789719D888CC004C466E /* Fsharp3.caf */; };
+		37C678DB19D888CC004C466E /* Fsharp4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6789819D888CC004C466E /* Fsharp4.caf */; };
+		37C678DC19D888CC004C466E /* Fsharp4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6789819D888CC004C466E /* Fsharp4.caf */; };
+		37C678DD19D888CC004C466E /* G2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6789919D888CC004C466E /* G2.caf */; };
+		37C678DE19D888CC004C466E /* G2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6789919D888CC004C466E /* G2.caf */; };
+		37C678DF19D888CC004C466E /* G3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6789A19D888CC004C466E /* G3.caf */; };
+		37C678E019D888CC004C466E /* G3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6789A19D888CC004C466E /* G3.caf */; };
+		37C678E119D888CC004C466E /* G4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6789B19D888CC004C466E /* G4.caf */; };
+		37C678E219D888CC004C466E /* G4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6789B19D888CC004C466E /* G4.caf */; };
+		37C678E319D888CC004C466E /* Gsharp2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6789C19D888CC004C466E /* Gsharp2.caf */; };
+		37C678E419D888CC004C466E /* Gsharp2.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6789C19D888CC004C466E /* Gsharp2.caf */; };
+		37C678E519D888CC004C466E /* Gsharp3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6789D19D888CC004C466E /* Gsharp3.caf */; };
+		37C678E619D888CC004C466E /* Gsharp3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6789D19D888CC004C466E /* Gsharp3.caf */; };
+		37C678E719D888CC004C466E /* Gsharp4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6789E19D888CC004C466E /* Gsharp4.caf */; };
+		37C678E819D888CC004C466E /* Gsharp4.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6789E19D888CC004C466E /* Gsharp4.caf */; };
+		37C678E919D888CC004C466E /* hihat.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6789F19D888CC004C466E /* hihat.caf */; };
+		37C678EA19D888CC004C466E /* hihat.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C6789F19D888CC004C466E /* hihat.caf */; };
+		37C678EB19D888CC004C466E /* tock.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C678A019D888CC004C466E /* tock.caf */; };
+		37C678EC19D888CC004C466E /* tock.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37C678A019D888CC004C466E /* tock.caf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +121,48 @@
 		370EDDA919D6FB9400AD7EEC /* tonecluesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tonecluesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		370EDDAE19D6FB9400AD7EEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		370EDDAF19D6FB9400AD7EEC /* tonecluesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tonecluesTests.swift; sourceTree = "<group>"; };
+		3793BFB219D8574700B9FEA7 /* Organ Run.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Organ Run.m4a"; sourceTree = "<group>"; };
+		3793BFB319D8574700B9FEA7 /* Southern Rock Drums.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Southern Rock Drums.m4a"; sourceTree = "<group>"; };
+		3793BFB419D8574700B9FEA7 /* Southern Rock Organ.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Southern Rock Organ.m4a"; sourceTree = "<group>"; };
 		37B04B8E19D70DBE0068DE1A /* toneclues-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "toneclues-Bridging-Header.h"; sourceTree = "<group>"; };
+		37C6787B19D888CC004C466E /* A1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = A1.caf; sourceTree = "<group>"; };
+		37C6787C19D888CC004C466E /* A3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = A3.caf; sourceTree = "<group>"; };
+		37C6787D19D888CC004C466E /* A4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = A4.caf; sourceTree = "<group>"; };
+		37C6787E19D888CC004C466E /* Asharp1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Asharp1.caf; sourceTree = "<group>"; };
+		37C6787F19D888CC004C466E /* Asharp3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Asharp3.caf; sourceTree = "<group>"; };
+		37C6788019D888CC004C466E /* Asharp4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Asharp4.caf; sourceTree = "<group>"; };
+		37C6788119D888CC004C466E /* B1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = B1.caf; sourceTree = "<group>"; };
+		37C6788219D888CC004C466E /* B3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = B3.caf; sourceTree = "<group>"; };
+		37C6788319D888CC004C466E /* B4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = B4.caf; sourceTree = "<group>"; };
+		37C6788419D888CC004C466E /* C2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = C2.caf; sourceTree = "<group>"; };
+		37C6788519D888CC004C466E /* C3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = C3.caf; sourceTree = "<group>"; };
+		37C6788619D888CC004C466E /* C4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = C4.caf; sourceTree = "<group>"; };
+		37C6788719D888CC004C466E /* Csharp2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Csharp2.caf; sourceTree = "<group>"; };
+		37C6788819D888CC004C466E /* Csharp3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Csharp3.caf; sourceTree = "<group>"; };
+		37C6788919D888CC004C466E /* Csharp4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Csharp4.caf; sourceTree = "<group>"; };
+		37C6788A19D888CC004C466E /* D2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = D2.caf; sourceTree = "<group>"; };
+		37C6788B19D888CC004C466E /* D3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = D3.caf; sourceTree = "<group>"; };
+		37C6788C19D888CC004C466E /* D4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = D4.caf; sourceTree = "<group>"; };
+		37C6788D19D888CC004C466E /* Dsharp2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Dsharp2.caf; sourceTree = "<group>"; };
+		37C6788E19D888CC004C466E /* Dsharp3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Dsharp3.caf; sourceTree = "<group>"; };
+		37C6788F19D888CC004C466E /* Dsharp4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Dsharp4.caf; sourceTree = "<group>"; };
+		37C6789019D888CC004C466E /* E2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = E2.caf; sourceTree = "<group>"; };
+		37C6789119D888CC004C466E /* E3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = E3.caf; sourceTree = "<group>"; };
+		37C6789219D888CC004C466E /* E4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = E4.caf; sourceTree = "<group>"; };
+		37C6789319D888CC004C466E /* F2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = F2.caf; sourceTree = "<group>"; };
+		37C6789419D888CC004C466E /* F3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = F3.caf; sourceTree = "<group>"; };
+		37C6789519D888CC004C466E /* F4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = F4.caf; sourceTree = "<group>"; };
+		37C6789619D888CC004C466E /* Fsharp2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fsharp2.caf; sourceTree = "<group>"; };
+		37C6789719D888CC004C466E /* Fsharp3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fsharp3.caf; sourceTree = "<group>"; };
+		37C6789819D888CC004C466E /* Fsharp4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fsharp4.caf; sourceTree = "<group>"; };
+		37C6789919D888CC004C466E /* G2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = G2.caf; sourceTree = "<group>"; };
+		37C6789A19D888CC004C466E /* G3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = G3.caf; sourceTree = "<group>"; };
+		37C6789B19D888CC004C466E /* G4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = G4.caf; sourceTree = "<group>"; };
+		37C6789C19D888CC004C466E /* Gsharp2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Gsharp2.caf; sourceTree = "<group>"; };
+		37C6789D19D888CC004C466E /* Gsharp3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Gsharp3.caf; sourceTree = "<group>"; };
+		37C6789E19D888CC004C466E /* Gsharp4.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Gsharp4.caf; sourceTree = "<group>"; };
+		37C6789F19D888CC004C466E /* hihat.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = hihat.caf; sourceTree = "<group>"; };
+		37C678A019D888CC004C466E /* tock.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = tock.caf; sourceTree = "<group>"; };
 		901F8B4B722C4D33BAED9534 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE6746BAB5C24EDB88E54145 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,6 +189,7 @@
 		370EDD8919D6FB9400AD7EEC = {
 			isa = PBXGroup;
 			children = (
+				3793BFB119D8573200B9FEA7 /* Resources */,
 				370EDD9419D6FB9400AD7EEC /* toneclues */,
 				370EDDAC19D6FB9400AD7EEC /* tonecluesTests */,
 				370EDD9319D6FB9400AD7EEC /* Products */,
@@ -121,6 +245,54 @@
 				370EDDAE19D6FB9400AD7EEC /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3793BFB119D8573200B9FEA7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				37C6787B19D888CC004C466E /* A1.caf */,
+				37C6787C19D888CC004C466E /* A3.caf */,
+				37C6787D19D888CC004C466E /* A4.caf */,
+				37C6787E19D888CC004C466E /* Asharp1.caf */,
+				37C6787F19D888CC004C466E /* Asharp3.caf */,
+				37C6788019D888CC004C466E /* Asharp4.caf */,
+				37C6788119D888CC004C466E /* B1.caf */,
+				37C6788219D888CC004C466E /* B3.caf */,
+				37C6788319D888CC004C466E /* B4.caf */,
+				37C6788419D888CC004C466E /* C2.caf */,
+				37C6788519D888CC004C466E /* C3.caf */,
+				37C6788619D888CC004C466E /* C4.caf */,
+				37C6788719D888CC004C466E /* Csharp2.caf */,
+				37C6788819D888CC004C466E /* Csharp3.caf */,
+				37C6788919D888CC004C466E /* Csharp4.caf */,
+				37C6788A19D888CC004C466E /* D2.caf */,
+				37C6788B19D888CC004C466E /* D3.caf */,
+				37C6788C19D888CC004C466E /* D4.caf */,
+				37C6788D19D888CC004C466E /* Dsharp2.caf */,
+				37C6788E19D888CC004C466E /* Dsharp3.caf */,
+				37C6788F19D888CC004C466E /* Dsharp4.caf */,
+				37C6789019D888CC004C466E /* E2.caf */,
+				37C6789119D888CC004C466E /* E3.caf */,
+				37C6789219D888CC004C466E /* E4.caf */,
+				37C6789319D888CC004C466E /* F2.caf */,
+				37C6789419D888CC004C466E /* F3.caf */,
+				37C6789519D888CC004C466E /* F4.caf */,
+				37C6789619D888CC004C466E /* Fsharp2.caf */,
+				37C6789719D888CC004C466E /* Fsharp3.caf */,
+				37C6789819D888CC004C466E /* Fsharp4.caf */,
+				37C6789919D888CC004C466E /* G2.caf */,
+				37C6789A19D888CC004C466E /* G3.caf */,
+				37C6789B19D888CC004C466E /* G4.caf */,
+				37C6789C19D888CC004C466E /* Gsharp2.caf */,
+				37C6789D19D888CC004C466E /* Gsharp3.caf */,
+				37C6789E19D888CC004C466E /* Gsharp4.caf */,
+				37C6789F19D888CC004C466E /* hihat.caf */,
+				37C678A019D888CC004C466E /* tock.caf */,
+				3793BFB219D8574700B9FEA7 /* Organ Run.m4a */,
+				3793BFB319D8574700B9FEA7 /* Southern Rock Drums.m4a */,
+				3793BFB419D8574700B9FEA7 /* Southern Rock Organ.m4a */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		A73BF41242254E00AFEEB75F /* Frameworks */ = {
@@ -214,9 +386,50 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37C678E119D888CC004C466E /* G4.caf in Resources */,
+				37C678AD19D888CC004C466E /* B1.caf in Resources */,
+				37C678C119D888CC004C466E /* D3.caf in Resources */,
+				37C678B519D888CC004C466E /* C3.caf in Resources */,
+				37C678DD19D888CC004C466E /* G2.caf in Resources */,
+				37C678C519D888CC004C466E /* Dsharp2.caf in Resources */,
 				370EDD9F19D6FB9400AD7EEC /* Main.storyboard in Resources */,
+				37C678CB19D888CC004C466E /* E2.caf in Resources */,
+				37C678A719D888CC004C466E /* Asharp1.caf in Resources */,
+				37C678B319D888CC004C466E /* C2.caf in Resources */,
+				37C678E319D888CC004C466E /* Gsharp2.caf in Resources */,
+				37C678D119D888CC004C466E /* F2.caf in Resources */,
+				37C678C319D888CC004C466E /* D4.caf in Resources */,
+				37C678C919D888CC004C466E /* Dsharp4.caf in Resources */,
+				37C678D519D888CC004C466E /* F4.caf in Resources */,
+				37C678D919D888CC004C466E /* Fsharp3.caf in Resources */,
+				37C678DF19D888CC004C466E /* G3.caf in Resources */,
+				3793BFB519D8574700B9FEA7 /* Organ Run.m4a in Resources */,
+				37C678A319D888CC004C466E /* A3.caf in Resources */,
+				37C678C719D888CC004C466E /* Dsharp3.caf in Resources */,
+				37C678AF19D888CC004C466E /* B3.caf in Resources */,
+				37C678BF19D888CC004C466E /* D2.caf in Resources */,
+				37C678A519D888CC004C466E /* A4.caf in Resources */,
 				370EDDA419D6FB9400AD7EEC /* LaunchScreen.xib in Resources */,
+				37C678E719D888CC004C466E /* Gsharp4.caf in Resources */,
+				37C678AB19D888CC004C466E /* Asharp4.caf in Resources */,
+				37C678CD19D888CC004C466E /* E3.caf in Resources */,
+				37C678D719D888CC004C466E /* Fsharp2.caf in Resources */,
+				37C678B719D888CC004C466E /* C4.caf in Resources */,
+				37C678B919D888CC004C466E /* Csharp2.caf in Resources */,
+				37C678A919D888CC004C466E /* Asharp3.caf in Resources */,
+				37C678D319D888CC004C466E /* F3.caf in Resources */,
+				37C678DB19D888CC004C466E /* Fsharp4.caf in Resources */,
+				37C678B119D888CC004C466E /* B4.caf in Resources */,
+				3793BFB919D8574700B9FEA7 /* Southern Rock Organ.m4a in Resources */,
+				37C678E919D888CC004C466E /* hihat.caf in Resources */,
 				370EDDA119D6FB9400AD7EEC /* Images.xcassets in Resources */,
+				37C678EB19D888CC004C466E /* tock.caf in Resources */,
+				37C678CF19D888CC004C466E /* E4.caf in Resources */,
+				37C678A119D888CC004C466E /* A1.caf in Resources */,
+				3793BFB719D8574700B9FEA7 /* Southern Rock Drums.m4a in Resources */,
+				37C678BD19D888CC004C466E /* Csharp4.caf in Resources */,
+				37C678E519D888CC004C466E /* Gsharp3.caf in Resources */,
+				37C678BB19D888CC004C466E /* Csharp3.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,6 +437,47 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37C678E019D888CC004C466E /* G3.caf in Resources */,
+				37C678CE19D888CC004C466E /* E3.caf in Resources */,
+				37C678D019D888CC004C466E /* E4.caf in Resources */,
+				37C678C419D888CC004C466E /* D4.caf in Resources */,
+				37C678C619D888CC004C466E /* Dsharp2.caf in Resources */,
+				37C678B419D888CC004C466E /* C2.caf in Resources */,
+				37C678DE19D888CC004C466E /* G2.caf in Resources */,
+				37C678A419D888CC004C466E /* A3.caf in Resources */,
+				37C678A219D888CC004C466E /* A1.caf in Resources */,
+				37C678E219D888CC004C466E /* G4.caf in Resources */,
+				3793BFBA19D8574700B9FEA7 /* Southern Rock Organ.m4a in Resources */,
+				37C678BE19D888CC004C466E /* Csharp4.caf in Resources */,
+				37C678DC19D888CC004C466E /* Fsharp4.caf in Resources */,
+				37C678C219D888CC004C466E /* D3.caf in Resources */,
+				37C678B619D888CC004C466E /* C3.caf in Resources */,
+				37C678EA19D888CC004C466E /* hihat.caf in Resources */,
+				37C678BC19D888CC004C466E /* Csharp3.caf in Resources */,
+				37C678B819D888CC004C466E /* C4.caf in Resources */,
+				37C678E619D888CC004C466E /* Gsharp3.caf in Resources */,
+				37C678D419D888CC004C466E /* F3.caf in Resources */,
+				37C678C019D888CC004C466E /* D2.caf in Resources */,
+				37C678BA19D888CC004C466E /* Csharp2.caf in Resources */,
+				37C678AC19D888CC004C466E /* Asharp4.caf in Resources */,
+				37C678E419D888CC004C466E /* Gsharp2.caf in Resources */,
+				37C678B219D888CC004C466E /* B4.caf in Resources */,
+				37C678A619D888CC004C466E /* A4.caf in Resources */,
+				37C678D219D888CC004C466E /* F2.caf in Resources */,
+				37C678EC19D888CC004C466E /* tock.caf in Resources */,
+				37C678D619D888CC004C466E /* F4.caf in Resources */,
+				37C678C819D888CC004C466E /* Dsharp3.caf in Resources */,
+				37C678CA19D888CC004C466E /* Dsharp4.caf in Resources */,
+				37C678AE19D888CC004C466E /* B1.caf in Resources */,
+				37C678D819D888CC004C466E /* Fsharp2.caf in Resources */,
+				37C678A819D888CC004C466E /* Asharp1.caf in Resources */,
+				37C678DA19D888CC004C466E /* Fsharp3.caf in Resources */,
+				37C678E819D888CC004C466E /* Gsharp4.caf in Resources */,
+				37C678CC19D888CC004C466E /* E2.caf in Resources */,
+				37C678B019D888CC004C466E /* B3.caf in Resources */,
+				37C678AA19D888CC004C466E /* Asharp3.caf in Resources */,
+				3793BFB619D8574700B9FEA7 /* Organ Run.m4a in Resources */,
+				3793BFB819D8574700B9FEA7 /* Southern Rock Drums.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

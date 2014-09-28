@@ -9,19 +9,24 @@
 import UIKit
 
 class FirstViewController: UIViewController {
+
+    required init(coder aDecoder: NSCoder)
+    {
+        super.init(coder: aDecoder)
+    }
     let appDelegate = UIApplication.sharedApplication().delegate as AppDelegate
-    
+
     
     @IBAction func play(sender:UIButton){
-        print("play")
-    
+        self.appDelegate.filePlayer.channelIsPlaying = true
+
+        
     }
 
 
-    override func viewDidLoad() {
+    override func viewDidLoad(){
+        print("first view did load()")
         super.viewDidLoad()
-        print(appDelegate.audioController.description)
-        
     }
 
     override func didReceiveMemoryWarning() {
@@ -31,4 +36,9 @@ class FirstViewController: UIViewController {
 
 
 }
-
+//self.loop1 = [AEAudioFilePlayer audioFilePlayerWithURL:[[NSBundle mainBundle] URLForResource:@"Southern Rock Drums" withExtension:@"m4a"]
+//    audioController:_audioController
+//    error:NULL];
+//_loop1.volume = 1.0;
+//_loop1.channelIsMuted = YES;
+//_loop1.loop = YES;

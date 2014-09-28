@@ -16,14 +16,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
     var audioController : AEAudioController!
+    var filePlayer : AEAudioFilePlayer!
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        var err = NSErrorPointer()
         audioController = AEAudioController(audioDescription:AEAudioController.nonInterleaved16BitStereoAudioDescription(),inputEnabled:true)
         audioController.preferredBufferDuration = 0.005
         audioController.useMeasurementMode = true
-        audioController.start(nil)
-
-
+        audioController.start(err)
+        
+        var sound = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("C4", ofType: "caf")!)
+        filePlayer = AEAudioFilePlayer.audioFilePlayerWithURL(sound, audioController: self.audioController, error: err) as AEAudioFilePlayer
+        self.filePlayer?.volume = 1.0
+        self.filePlayer?.loop = false
+        audioController.addChannels([filePlayer])
         return true
     }
 
