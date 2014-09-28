@@ -17,6 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     var audioController : AEAudioController!
     var filePlayer : AEAudioFilePlayer!
+    var isPlaying : Bool = false
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         var err = NSErrorPointer()
@@ -29,6 +30,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         filePlayer = AEAudioFilePlayer.audioFilePlayerWithURL(sound, audioController: self.audioController, error: err) as AEAudioFilePlayer
         self.filePlayer?.volume = 1.0
         self.filePlayer?.loop = false
+        self.filePlayer?.channelIsPlaying = false
         audioController.addChannels([filePlayer])
         return true
     }

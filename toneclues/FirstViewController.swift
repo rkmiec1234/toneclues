@@ -22,8 +22,6 @@ class FirstViewController: UIViewController {
 
         
     }
-
-
     override func viewDidLoad(){
         print("first view did load()")
         super.viewDidLoad()
