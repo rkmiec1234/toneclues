@@ -8,9 +8,6 @@
 
 import UIKit
 
-
-
-
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -18,8 +15,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var audioController : AEAudioController!
     var filePlayer : AEAudioFilePlayer!
     var isPlaying : Bool = false
-
-    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+    
+    func setUpAudioEngine(){
         var err = NSErrorPointer()
         audioController = AEAudioController(audioDescription:AEAudioController.nonInterleaved16BitStereoAudioDescription(),inputEnabled:true)
         audioController.preferredBufferDuration = 0.005
@@ -32,6 +29,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.filePlayer?.loop = false
         self.filePlayer?.channelIsPlaying = false
         audioController.addChannels([filePlayer])
+    }
+
+    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+  
+        self.setUpAudioEngine()
         return true
     }
 
